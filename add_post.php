@@ -1,9 +1,11 @@
 <?php
 require "header.php";
 ?>
-    <form action="">
-        <input type="text" name="Title" placeholder="title">
-    </form>
+ <form action="add_post_post.php" method="post">
+       <input type="text" name="title" placeholder="Title">
+       <textarea name="content" placeholder="Content"></textarea>
+       <input type="submit">
+   </form>
     
 </body>
 </html> 
