@@ -1,5 +1,7 @@
 <?php
 require 'header.php'; 
+
+echo $_GET["message"];
 ?>
     <h1>Admin</h1>
 
