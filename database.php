@@ -1,7 +1,7 @@
 <?php
 $servername = "localhost";
 $username = "root";
-$password = "oui";
+$password = "root";
 $database = "blog-talis";
 
 try {
